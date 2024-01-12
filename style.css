@@ -1,0 +1,185 @@
+html {
+  background-color: rgba(197, 190, 190, 0.932);
+    height: 100%;
+    width: 100%;
+  }
+  .page-container{
+    width: 100%;
+    background-color: rgb(241, 239, 239);
+    margin: 50vw;
+  }
+  .logo{
+    position: relative;
+    left: 5vw;
+      color: #000;
+      font-family: Poppins;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      
+  }
+  .full-page {
+    position: absolute; /* Position relative to the viewport */
+    
+    width: calc(100vw - 60px); /* Viewport width minus 60px (30px margins on both sides) */
+    height: calc(100vh - 60px); /* Viewport height minus 60px */
+    
+    margin: 40vw;
+  }
+  
+  @media (min-width: 768px) { /* Adjust breakpoint as needed */
+    .full-page {
+      width: calc(100vw - 60px); /* Adjust for laptop view */
+      height: calc(100vh - 60px);
+    }
+  }
+  
+  .header-container{
+    display: inline-flex;
+    height: 100px;
+    width: 100%;
+    margin-right:20px;
+    margin-left:30px;
+    margin-top:30px;
+    
+  }
+  
+  .header-container > * {
+    flex: 1;
+    margin: 10px;
+  }
+  
+  .header-container > *:first-child {
+    margin-left: 0;
+  }
+  
+  .header-container > *:last-child {
+    margin-right: 0;
+  }
+  
+  nav {
+   display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+  }
+  .About{
+    display: flex;
+  
+    position: relative;
+    padding: 15px;
+  }
+  .Clothing{
+    display: flex;
+    position: relative;
+    padding: 15px;
+  }
+  .Accessories{
+    display: flex;
+    position: relative;
+    padding: 15px;
+  }
+  .Services{
+    display: flex;
+    position: relative;
+    padding: 15px;
+  }
+  nav a {
+    text-decoration: none;
+    color: black; /* added to make the text of <a> tag black */
+  }
+  
+  
+  .signup-btn {
+    align-self: center;
+    padding: 10px 20px;
+    background-color: #c77e10;
+    border: none;
+    margin: 5px;
+    border-radius:5px;
+    height: 40px;
+  }
+  
+  .login-btn {
+    padding: 10px 20px;
+    border: none;
+    background-color: white;
+    align-self: center;
+    border-radius:5px;
+    height: 40px;
+    margin: 5px;
+  }
+  .login-signup{
+    display: flex;
+    position: relative;
+    left: 100px;
+    align-self: center;
+    
+    
+  }
+  .bigger-flex-column {
+    display: flex; /* Use flexbox for horizontal layout */
+    height: 65%;
+    
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 20px;
+    
+  }
+  .flex-01{
+    margin-top: 100px;
+  }
+  .h4-1 {
+    position: absolute;
+
+    top: 282px;
+    width: 550px;
+    height: 450px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 250;
+    line-height: normal;
+    letter-spacing: 4.8px;
+  }
+  .h3-1 {
+    position: relative;
+    top: 40px;
+    color: blue; /* Set text color to blue */
+    font-family: 'Copperplate Gothic Bold', sans-serif; /* Use Copperplate Gothic Bold font */
+  }
+  .flex-02 {
+    position: absolute;
+    right: 200px;
+    width: 400px;
+    height: 380px;
+    flex-shrink: 0;
+    
+  }
+  
+  .flex-02 img{
+    display: flex; /* Use flexbox for vertical layout */
+    position: relative;
+    left: 120px;
+    width: 100%;
+    height: 100%;
+    background-size: cover; /* Cover the entire area while preserving aspect ratio */
+    }
+    
+    
+    .buy-btn {
+      position: absolute;
+      top:500px;
+      background-color: #c77e10; /* Set background color to orange */
+      color: #fff; /* Ensure text is white on orange background */
+      border-radius: 5px; /* Round the corners of the button */
+      border: none;
+      font-size: 16px;
+    }
+    
+    
+    
