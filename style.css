@@ -108,7 +108,7 @@ nav a {
   flex-shrink: 0;
   
   font-family: "poppings";
-  font-size: 20px;
+  font-size: 25px;
   font-style: normal;
   font-weight: 100;
   line-height: normal;
@@ -117,7 +117,7 @@ nav a {
 .h3-1 {
   display: flex;
   width: 100%;
-  margin-top: 170%;
+  margin-top: 20%;
  
   color: blue;
   font-family: 'Copperplate Gothic Bold', sans-serif;
@@ -131,7 +131,7 @@ nav a {
 .buy-btn {
   display: flex;
   padding: 15px;
-  margin-top: 100%;
+  margin-top: 0%;
   margin-bottom: auto;
   margin-left: 10px;
   margin-right: 10px;
