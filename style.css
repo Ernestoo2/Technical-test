@@ -30,44 +30,59 @@ body {
 
   /* Styles for mobile */
   .header-container {
+    display: grid;
+    grid-template-columns: 0.1fr auto;
+    align-items: center; /* Vertically align content */
+    background-color: rgb(16, 238, 238);
+  }
+  .logo-container {
     display: flex;
-    position: relative;
-    max-width: 90%;
+    align-items: center; /* Vertically align logo */
+    padding: 2vh;
+    background-color: #d4f3d4;
+    font-size: 200vh;
+    font-weight: 200;
+  }
+
+  .image-1 {
+  
+    margin-left: 10vh;
+    width: 70%;
+    height: 90%;
   }
 
   nav {
     font-size: 100%;
+
+  }
+
+  .flex-01 {
+    display: flex;
+    justify-content: center;
+
   }
 
   .login-btn {
     font-size: 100%;
-
+    max-width: 50%;
   }
 
   .signup-btn {
-    font-size: 100%;
-
+    font-size: 50%;
+    width: 30%;
   }
-
-  .login-signup {
-    width: 100%;
-  }
-
-  .logo {
-    font-size: 3vh;
-    font-weight: 20px;
-    width: 100%;
-  }
-
-  .image-1 {
-
-    width: 90%;
-    height: 90%;
+  .login-signup{
+    display: inline;
+    
+    justify-self: end;
+    padding: 3vh;
+    grid-column: 3;
+    background-color: #10c719;
   }
 
   .h4-1 {
     display: flex;
-    width: 75%;
+    width: 100%;
     height: 45%;
     flex-shrink: 0;
 
@@ -77,6 +92,29 @@ body {
     font-weight: 100;
     line-height: normal;
     letter-spacing: 4.8px;
+  }
+
+  .h3-1 {
+    display: flex;
+    width: 100%;
+    margin-top: 20%;
+
+    color: blue;
+    font-family: 'Copperplate Gothic Bold', sans-serif;
+  }
+
+  .buy-btn {
+    display: flex;
+    position: static;
+    width: fit-content;
+    margin-top: 50%;
+    padding: 15px;
+
+    background-color: #c77e10;
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+    font-size: 16px;
   }
 }
 

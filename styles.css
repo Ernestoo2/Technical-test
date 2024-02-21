@@ -1,22 +1,120 @@
-.header-container {
-    display: grid;
-    grid-template-columns: 0.5fr auto;
-    align-items: center; /* Vertically align content */
-   
-}
-  .logo-container {
-    display: flex;
-    align-items: center; /* Vertically align logo */
-  }
-  .nav-class {
-    display: flex;
-    justify-content: space-between; /* Distribute links evenly */
-  }
-  .login-signup{
-    display: inline;
+@media only screen and (min-width: 768px) {
+
+    /* Styles for desktops */
+    /* .header-container {
+      display: flex;
+      position: relative;
+      max-width: 100%;
+      margin-left: 2vh;
+  
+    } */
+    .header-container {
+      display: grid;
+      grid-template-columns: 0.5fr auto;
+      align-items: center; /* Vertically align content */
+      background-color: aqua;
+    }
+    .logo-container {
+      display: flex;
+      align-items: center; /* Vertically align logo */
+      padding: 4vh;
+      background-color: #10c719;
+      font-size: 200vh;
+      font-weight: 200;
+    }
+    .logo {
+      
+      
+    }
+    /* .logo {
+      display: flex;
+      font-size: 65px;
+      font-weight: 700;
+      max-width: 30vh;
+  
+      justify-content: center;
+      align-items: center;
+      height: 50px;
+    } */
+  
+    .image-1 {
+  
+      margin-left: 30vh;
+      width: 60%;
+      height: 80%;
+    }
+  
+    nav {
+      font-size: 100%;
+  
+    }
+  
+    .flex-01 {
+      display: flex;
+      justify-content: center;
+  
+    }
+  
+    .login-btn {
+      font-size: 100%;
+      max-width: 50%;
+    }
+  
+    .signup-btn {
+      font-size: 50%;
+      width: 30%;
+    }
+  
     
-    justify-self: end;
-    padding: 4vh;
-    grid-column: 3;
+  
+    /* .login-signup {
+      display: flex;
+      justify-content: flex-end;
+      align-content: flex-end;
+    } */
+    .login-signup{
+      display: inline;
+      
+      justify-self: end;
+      padding: 3vh;
+      grid-column: 3;
+      background-color: #10c719;
+    }
     
+    .h4-1 {
+      display: flex;
+      width: 100%;
+      height: 45%;
+      flex-shrink: 0;
+  
+      font-family: "poppings";
+      font-size: 25px;
+      font-style: normal;
+      font-weight: 100;
+      line-height: normal;
+      letter-spacing: 4.8px;
+    }
+  
+    .h3-1 {
+      display: flex;
+      width: 100%;
+      margin-top: 20%;
+  
+      color: blue;
+      font-family: 'Copperplate Gothic Bold', sans-serif;
+    }
+  
+    .buy-btn {
+      display: flex;
+      position: static;
+      width: fit-content;
+      margin-top: 50%;
+      padding: 15px;
+  
+      background-color: #c77e10;
+      color: #fff;
+      border-radius: 20px;
+      border: none;
+      font-size: 16px;
+    }
   }
