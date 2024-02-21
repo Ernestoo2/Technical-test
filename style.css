@@ -31,30 +31,31 @@ body {
   /* Styles for mobile */
   .header-container {
     display: grid;
-    grid-template-columns: 0.1fr auto;
+    grid-template-columns: 0.3fr 0.3fr 0.3fr;
     align-items: center; /* Vertically align content */
-    background-color: rgb(16, 238, 238);
+    
   }
   .logo-container {
     display: flex;
     align-items: center; /* Vertically align logo */
     padding: 2vh;
-    background-color: #d4f3d4;
-    font-size: 200vh;
-    font-weight: 200;
+   
+    
   }
 
   .image-1 {
-  
-    margin-left: 10vh;
+   
+    margin-left: 8vh;
     width: 70%;
     height: 90%;
   }
 
   nav {
-    font-size: 100%;
+    font-size: 70%;
 
   }
+ 
+  
 
   .flex-01 {
     display: flex;
@@ -63,23 +64,20 @@ body {
   }
 
   .login-btn {
-    font-size: 100%;
-    max-width: 50%;
+    font-size: 80%;
+    width: 10vh;
+    padding: 2px;  /* Use desired padding values */
   }
-
+  
   .signup-btn {
-    font-size: 50%;
-    width: 30%;
+    font-size: 80%;
+    width: 10vh; /* Use desired padding values */
+    padding: 2px;
   }
   .login-signup{
-    display: inline;
-    
-    justify-self: end;
-    padding: 3vh;
-    grid-column: 3;
-    background-color: #10c719;
+    margin-left: 2vh;
   }
-
+  
   .h4-1 {
     display: flex;
     width: 100%;
@@ -120,23 +118,40 @@ body {
 
 @media only screen and (min-width: 480px) and (max-width: 768px) {
 
-  /* Styles for tablets */
   .header-container {
-    display: flex;
-    position: relative;
-    max-width: 100%;
-    margin-left: 2vh;
-
+    display: grid;
+    grid-template-columns: 0.5fr auto;
+    align-items: center; /* Vertically align content */
+    background-color: aqua;
   }
+  .logo-container {
+    display: flex;
+    align-items: center; /* Vertically align logo */
+    padding: 4vh;
+    background-color: #10c719;
+    font-size: 200vh;
+    font-weight: 200;
+  }
+  .logo {
+    
+    
+  }
+  /* .logo {
+    display: flex;
+    font-size: 65px;
+    font-weight: 700;
+    max-width: 30vh;
+
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+  } */
 
   .image-1 {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    margin-left: 20vh;
-    margin-right: 10vh;
+
+    margin-left: 30vh;
     width: 60%;
-    height: 90%;
+    height: 80%;
   }
 
   nav {
@@ -152,7 +167,7 @@ body {
 
   .login-btn {
     font-size: 100%;
-    width: 30%;
+    max-width: 50%;
   }
 
   .signup-btn {
@@ -160,24 +175,22 @@ body {
     width: 30%;
   }
 
-  .logo {
-    font-size: 100%;
-    font-weight: 20px;
-  }
+  
 
-  .login-signup {
+  /* .login-signup {
     display: flex;
-
+    justify-content: flex-end;
+    align-content: flex-end;
+  } */
+  .login-signup{
+    display: inline;
+    
+    justify-self: end;
+    padding: 3vh;
+    grid-column: 3;
+    background-color: #10c719;
   }
-
-
-
-  .logo {
-    font-size: 3vh;
-    font-weight: 20px;
-    width: 100%;
-  }
-
+  
   .h4-1 {
     display: flex;
     width: 100%;
@@ -340,7 +353,7 @@ body {
 .flex-01 {
   display: flex;
   flex-direction: column;
-  padding-bottom: 25%;
+  padding-bottom: 5%;
 }
 .nav-class {
   display: flex;
@@ -352,51 +365,35 @@ body {
 
 nav a {
 
-  padding: 4px;
+  padding: 2px;
   text-decoration: none;
   color: black;
 }
 
 
 
-.signup-btn {
-  font-size: 100%;
-
-}
-
-.login-signup {
-  width: 100%;
-}
-
-.logo {
-  font-size: 3vh;
-  font-weight: 20px;
-  width: 100%;
-}
-
 
 .signup-btn {
   display: flex;
   justify-content: center;
   align-self: center;
-  padding: 10px;
+ 
   background-color: #c77e10;
   border: none;
 
-  margin: 5px;
+  
   border-radius: 25px;
-  height: 15%;
+  
 }
 
 .login-btn {
-  padding: 10px;
+  
   border: none;
   background-color: white;
   align-self: center;
   border-radius: 20px;
-  width: 20%;
-  height: 15%;
-  margin: 5px;
+  
+  
 }
 
 .login-signup {
