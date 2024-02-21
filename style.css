@@ -40,7 +40,7 @@ body {
   /* Styles for mobile */
   .header-container {
     display: grid;
-    grid-template-columns: 0.4fr 1fr 0.3fr;
+    grid-template-columns: 0.4fr 0.5fr 1fr;
     align-items: center;
    
    }
@@ -70,14 +70,10 @@ body {
  
 
   nav {
-    font-size: 1.5vw;
+    font-size: 7px;
   }
 
 
-  .login-btn {
-    font-size: 100%;
-    max-width: 50%;
-  }
   
   .flex-01{
   
@@ -88,13 +84,14 @@ body {
    .signup-btn {
     flex-grow: 1;
     font-size: 2.5vw;
-    padding: 1vw;
-    width: 15vw;
+    padding: 1x;
+    width: px;
     
   }
   .login-signup {
     display: flex;
-    
+    background-color: aqua;
+    margin-left: 4px;
     justify-content: space-between;
     
   }
@@ -103,7 +100,7 @@ body {
 
   .image-1 {
     
-    margin-top: 40px;
+    margin-top: 15px;
     width: 140px;
     height: 300px;
   }
@@ -317,7 +314,7 @@ body {
 
 nav a {
 
-  padding: 4px;
+  padding: 1px;
   text-decoration: none;
   color: black;
 }
