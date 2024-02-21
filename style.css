@@ -90,7 +90,7 @@ body {
   }
   .login-signup {
     display: flex;
-    background-color: aqua;
+    
     margin-left: 4px;
     justify-content: space-between;
     
