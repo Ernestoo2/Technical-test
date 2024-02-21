@@ -43,8 +43,7 @@ body {
     grid-template-columns: 0.4fr 1fr 0.3fr;
     align-items: center;
    
-    background-color: aqua;
-  }
+   }
   .page-container {
     display:flex;
     flex-direction: column;
@@ -59,7 +58,7 @@ body {
   .logo-container {
   
     width: 70px;
-    background-color: bisque;
+   
     
   }
   .logo{
