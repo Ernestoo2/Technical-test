@@ -4,7 +4,7 @@ body {
   background-color: grey;
 
 }
-
+/* 
 .page-container {
   display:flex;
   flex-direction: column;
@@ -16,6 +16,8 @@ body {
   margin-bottom: 30%;
 
 }
+*/
+
 
 .bigger-flex-column {
   display: flex;
@@ -43,13 +45,33 @@ body {
   /* Styles for mobile */
   .header-container {
     display: grid;
-    grid-template-columns: 1fr auto auto;
+    grid-template-columns: 0.3fr 1fr 0.3fr;
     align-items: center;
-    
+   
+    background-color: aqua;
+  }
+  .page-container {
+    display:flex;
+    flex-direction: column;
+  
+    background-color: white;
+    max-width: 100%;
+    margin-left: 5%;
+    margin-top: 20%;
+    margin-bottom: 30%;
+  
   }
   .logo-container {
-    padding: 1vh;
-   
+  
+    width: 11vh;
+    background-color: bisque;
+    
+  }
+  .logo{
+    font-size: 2vh;
+    font-weight: 100;
+    flex-shrink: 300vh;
+    
   }
   .image-1 {
     margin-left: 5vh;
@@ -59,7 +81,7 @@ body {
 
 
   nav {
-    font-size: 1rem;
+    font-size: 1.3vh;
   }
 
 
@@ -76,20 +98,19 @@ body {
    .login-btn,
    .signup-btn {
     flex-grow: 1;
-    font-size: medium;
+    font-size: 2vh;
     padding: 1vh;
+    width: 10vh;
+    
   }
   .login-signup {
     display: flex;
+    
     justify-content: space-between;
     
   }
 
-  .logo {
-    font-size: 3vh;
-    font-weight: 20px;
-    width: 100%;
-  }
+  
 
   .image-1 {
     margin-left: 5vh;
@@ -123,7 +144,17 @@ body {
 }
 
 @media only screen and (min-width: 480px) and (max-width: 768px) {
-
+  .page-container {
+    display:flex;
+    flex-direction: column;
+  
+    background-color: white;
+    max-width: 90%;
+    margin-left: 5%;
+    margin-top: 20%;
+    margin-bottom: 30%;
+  
+  }
   /* Styles for tablets */
   .header-container {
     display: grid;
@@ -135,6 +166,9 @@ body {
     padding: 1vh;
    
   }
+  .logo{
+    font-size: x-large;
+  }
   .image-1 {
     margin-left: 5vh;
     width: 80%;
@@ -143,26 +177,24 @@ body {
 
 
   nav {
-    font-size: 1rem;
+    font-size: 2.5vh;
+    margin-right: 3vh;
   }
 
   
   .flex-01{
   
    margin-left: -2vh;
-    width: 350%;
+    width: 300%;
   }
   .login-btn,
   .signup-btn {
     flex-grow: 1;
-    font-size: medium;
+    font-size: 2vh;
     padding: 1vh;
   }
 
-  .logo {
-    font-size: 100%;
-    font-weight: 20px;
-  }
+
 
   .login-signup {
     display: flex;
@@ -172,12 +204,7 @@ body {
 
 
 
-  .logo {
-    font-size: 3vh;
-    font-weight: 20px;
-    width: 100%;
-  }
-
+ 
   .h4-1 {
     font-size: 20px;
     font-family: "poppings";
@@ -204,7 +231,17 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
-
+  .page-container {
+    display:flex;
+    flex-direction: column;
+  
+    background-color: white;
+    max-width: 90%;
+    margin-left: 5%;
+    margin-top: 20%;
+    margin-bottom: 30%;
+  
+  }
   .header-container {
     display: grid;
     grid-template-columns: 1fr auto auto;
@@ -216,7 +253,9 @@ body {
     padding: 1vh;
    
   }
-
+  .logo{
+    font-size: 5vh;
+  }
   nav {
     font-size: 1rem;
   }
@@ -238,8 +277,8 @@ body {
   }
 
   .image-1 {
-    margin-left: 5vh;
-    width: 80%;
+    
+    width: 90%;
     height: 90%;
   }
 
@@ -268,25 +307,12 @@ body {
 }
 
 
-
-
-
-
-
-
-
-
 nav a {
 
   padding: 4px;
   text-decoration: none;
   color: black;
 }
-
-
-
-
-
 
 .signup-btn {
   display: flex;
