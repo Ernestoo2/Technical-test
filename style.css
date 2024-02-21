@@ -27,12 +27,7 @@ body {
   padding-left: 5vw;
 
 }
-.flex-01 {
-  display: flex;
-  flex-direction: column;
-  padding-bottom: 25%;
-  
-}
+
 .nav-class {
   display: flex;
   justify-content: space-between; /* Distribute links evenly */
@@ -45,7 +40,7 @@ body {
   /* Styles for mobile */
   .header-container {
     display: grid;
-    grid-template-columns: 0.3fr 1fr 0.3fr;
+    grid-template-columns: 0.4fr 1fr 0.3fr;
     align-items: center;
    
     background-color: aqua;
@@ -55,30 +50,25 @@ body {
     flex-direction: column;
   
     background-color: white;
-    max-width: 100%;
-    margin-left: 5%;
-    margin-top: 20%;
-    margin-bottom: 30%;
+    max-width: 300px;
+    margin-left: 5px;
+    margin-top: 50px;
+    margin-bottom: 50%;
   
   }
   .logo-container {
   
-    width: 13vw;
+    width: 70px;
     background-color: bisque;
     
   }
   .logo{
-    font-size: 2.5vw;
+    font-size: 10px;
     font-weight: 100;
    
     
   }
-  .image-1 {
-    margin-left: 3vw;
-    width: 80%;
-    height: 90%;
-  }
-
+ 
 
   nav {
     font-size: 1.5vw;
@@ -113,21 +103,28 @@ body {
   
 
   .image-1 {
-    margin-left: 5vh;
-    width: 70%;
-    height: 90%;
+    
+    margin-top: 40px;
+    width: 140px;
+    height: 300px;
   }
-
+  .flex-01 {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 25%;
+   
+    width: 130px;
+  }
   .h4-1 {
-    font-size: 20px;
+    font-size: 10px;
     font-family: "poppings";
     font-weight: 100;
     letter-spacing: 4.8px;
   }
   .h3-1 {
-    margin-top: 60%;
+    margin-top: 120px;
     color: blue;
-    font-size: medium;
+    font-size: 10px;
     font-family: 'Copperplate Gothic Bold', sans-serif;
   }
 
@@ -138,7 +135,7 @@ body {
     border-radius: 20px;
     border: none;
     font-size: 13px;
-    width: 20vw;
+    width: 80px;
   }
 
 }
@@ -202,7 +199,13 @@ body {
     
   }
 
-
+  .flex-01 {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 25%;
+    
+   
+  }
 
  
   .h4-1 {
@@ -281,7 +284,13 @@ body {
     width: 90%;
     height: 90%;
   }
-
+  .flex-01 {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 25%;
+ 
+   
+  }
   .h4-1 {
     font-size: 20px;
     font-family: "poppings";
