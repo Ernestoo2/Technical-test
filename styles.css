@@ -1,0 +1,22 @@
+.header-container {
+    display: grid;
+    grid-template-columns: 0.5fr auto;
+    align-items: center; /* Vertically align content */
+   
+}
+  .logo-container {
+    display: flex;
+    align-items: center; /* Vertically align logo */
+  }
+  .nav-class {
+    display: flex;
+    justify-content: space-between; /* Distribute links evenly */
+  }
+  .login-signup{
+    display: inline;
+    
+    justify-self: end;
+    padding: 4vh;
+    grid-column: 3;
+    
+  }

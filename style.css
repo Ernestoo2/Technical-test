@@ -2,66 +2,341 @@ body {
   width: 100%;
   height: 100%;
   background-color: grey;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+
 }
+
 .page-container {
+
+
+  background-color: white;
+  max-width: 90%;
+  margin-left: 5%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+
+}
+
+.bigger-flex-column {
+  display: flex;
+  flex-direction: row;
+  background-color: aqua;
+  padding-top: 5vh;
+  padding-left: 5vh;
+
+}
+
+
+@media only screen and (max-width: 480px) {
+
+  /* Styles for mobile */
+  .header-container {
+    display: flex;
+    position: relative;
+    max-width: 90%;
+  }
+
+  nav {
+    font-size: 100%;
+  }
+
+  .login-btn {
+    font-size: 100%;
+
+  }
+
+  .signup-btn {
+    font-size: 100%;
+
+  }
+
+  .login-signup {
+    width: 100%;
+  }
+
+  .logo {
+    font-size: 3vh;
+    font-weight: 20px;
+    width: 100%;
+  }
+
+  .image-1 {
+
+    width: 90%;
+    height: 90%;
+  }
+
+  .h4-1 {
+    display: flex;
+    width: 75%;
+    height: 45%;
+    flex-shrink: 0;
+
+    font-family: "poppings";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+    letter-spacing: 4.8px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+
+  /* Styles for tablets */
+  .header-container {
+    display: flex;
+    position: relative;
+    max-width: 100%;
+    margin-left: 2vh;
+
+  }
+
+  .image-1 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 20vh;
+    margin-right: 10vh;
+    width: 60%;
+    height: 90%;
+  }
+
+  nav {
+    font-size: 100%;
+
+  }
+
+  .flex-01 {
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .login-btn {
+    font-size: 100%;
+    width: 30%;
+  }
+
+  .signup-btn {
+    font-size: 50%;
+    width: 30%;
+  }
+
+  .logo {
+    font-size: 100%;
+    font-weight: 20px;
+  }
+
+  .login-signup {
+    display: flex;
+
+  }
+
+
+
+  .logo {
+    font-size: 3vh;
+    font-weight: 20px;
+    width: 100%;
+  }
+
+  .h4-1 {
+    display: flex;
+    width: 100%;
+    height: 45%;
+    flex-shrink: 0;
+
+    font-family: "poppings";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+    letter-spacing: 4.8px;
+  }
+
+  .h3-1 {
+    display: flex;
+    width: 100%;
+    margin-top: 20%;
+
+    color: blue;
+    font-family: 'Copperplate Gothic Bold', sans-serif;
+  }
+
+  .buy-btn {
+    display: flex;
+    position: static;
+    width: fit-content;
+    margin-top: 50%;
+    padding: 15px;
+
+    background-color: #c77e10;
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+
+  /* Styles for desktops */
+  /* .header-container {
+    display: flex;
+    position: relative;
+    max-width: 100%;
+    margin-left: 2vh;
+
+  } */
+  .header-container {
+    display: grid;
+    grid-template-columns: 0.5fr auto;
+    align-items: center; /* Vertically align content */
+    background-color: aqua;
+  }
+  .logo-container {
+    display: flex;
+    align-items: center; /* Vertically align logo */
+    padding: 4vh;
+    background-color: #10c719;
+    font-size: 200vh;
+    font-weight: 200;
+  }
+  .logo {
+    
+    
+  }
+  /* .logo {
+    display: flex;
+    font-size: 65px;
+    font-weight: 700;
+    max-width: 30vh;
+
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+  } */
+
+  .image-1 {
+
+    margin-left: 30vh;
+    width: 60%;
+    height: 80%;
+  }
+
+  nav {
+    font-size: 100%;
+
+  }
+
+  .flex-01 {
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .login-btn {
+    font-size: 100%;
+    max-width: 50%;
+  }
+
+  .signup-btn {
+    font-size: 50%;
+    width: 30%;
+  }
+
+  
+
+  /* .login-signup {
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+  } */
+  .login-signup{
+    display: inline;
+    
+    justify-self: end;
+    padding: 3vh;
+    grid-column: 3;
+    background-color: #10c719;
+  }
+  
+  .h4-1 {
+    display: flex;
+    width: 100%;
+    height: 45%;
+    flex-shrink: 0;
+
+    font-family: "poppings";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+    letter-spacing: 4.8px;
+  }
+
+  .h3-1 {
+    display: flex;
+    width: 100%;
+    margin-top: 20%;
+
+    color: blue;
+    font-family: 'Copperplate Gothic Bold', sans-serif;
+  }
+
+  .buy-btn {
+    display: flex;
+    position: static;
+    width: fit-content;
+    margin-top: 50%;
+    padding: 15px;
+
+    background-color: #c77e10;
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+    font-size: 16px;
+  }
+}
+
+.flex-01 {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  height: 80%;
-  width: 90%;
-  background-color: white;
-  margin-left: 150%;
-  margin-right: 150%;
-  margin-top: 20%;
-  margin-bottom: 20%;
+  padding-bottom: 25%;
 }
-.logo {
+.nav-class {
   display: flex;
-  align-self: center;
-  padding-left: 40px;
-  width: 20%;
-  color: #000;
-  font-family: Poppins;
-  font-size: 25px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
-.header-container {
-  
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  height: 8%;
-  width: 100%;
-}
-.header-container>* {
-  flex: 1;
-  padding-right: 10px;
-}
-.header-container>*:first-child {
-  margin-left: 0;
-}
-.header-container>*:last-child {
-  margin-right: 0;
-}
-nav {
-  display: flex;
-  flex-direction: row;
+  justify-content: space-between; /* Distribute links evenly */
   justify-content: center;
   align-self: center;
 }
+
+
 nav a {
-  display: flex;
-  align-self: center;
-  padding: 10px;
+
+  padding: 4px;
   text-decoration: none;
   color: black;
 }
+
+
+
+.signup-btn {
+  font-size: 100%;
+
+}
+
+.login-signup {
+  width: 100%;
+}
+
+.logo {
+  font-size: 3vh;
+  font-weight: 20px;
+  width: 100%;
+}
+
+
 .signup-btn {
   display: flex;
   justify-content: center;
@@ -69,75 +344,43 @@ nav a {
   padding: 10px;
   background-color: #c77e10;
   border: none;
-  width: 30%;
+
   margin: 5px;
   border-radius: 25px;
   height: 15%;
 }
+
 .login-btn {
   padding: 10px;
   border: none;
   background-color: white;
   align-self: center;
   border-radius: 20px;
-  width: 30%;
+  width: 20%;
   height: 15%;
   margin: 5px;
 }
+
 .login-signup {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-self: center;
 }
-.bigger-flex-column {
-  display: flex;
-  height: 65%;
-  
-  margin-top: 10px;
-  margin-left: 20px;
-  margin-right: 10px;
-  margin-bottom: 10px;
-  padding: 5px;
-}
 
-.h4-1 {
-  display: flex;
-  width: 75%;
-  height: 45%;
-  flex-shrink: 0;
-  
-  font-family: "poppings";
-  font-size: 25px;
-  font-style: normal;
-  font-weight: 100;
-  line-height: normal;
-  letter-spacing: 4.8px;
-}
-.h3-1 {
-  display: flex;
-  width: 100%;
-  margin-top: 20%;
- 
-  color: blue;
-  font-family: 'Copperplate Gothic Bold', sans-serif;
-}
-
-.flex-02 img {
-  display: flex;
-  width: 40vw;
-  height: 500px;
-}
 .buy-btn {
   display: flex;
-  padding: 15px;
-  margin-top: 0%;
-  margin-bottom: auto;
-  margin-left: 10px;
-  margin-right: 10px;
+
+
   background-color: #c77e10;
   color: #fff;
   border-radius: 20px;
   border: none;
-  font-size: 16px;
+
+}
+
+.buy-btn,
+.signup-btn,
+.login-btn:hover {
+  cursor: pointer;
 }
