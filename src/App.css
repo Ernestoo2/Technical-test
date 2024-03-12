@@ -3,17 +3,17 @@
     display: grid;
     grid-template-columns: 0.5fr 1fr 0.5fr;
     width: 100%;
-    
+    margin-left: 4%;
     overflow: hidden;
   }
   .logo-container{
     margin-top: 3px;
-    width: 70px;
+    width: 100px;
     height: 30px;
    
   }
   .logo{
-    font-size: 12px;
+    font-size: 15px;
   }
 
   .signup-login{
@@ -36,7 +36,7 @@
    display: flex;
    flex-direction: column;
    padding-right: 17px;
-   font-size: 10px;
+   font-size: 12px;
   }
   .NavLink{
     text-decoration:none;
@@ -70,6 +70,7 @@
     width: 100%;
     height: 100vh;
     margin-top: 100px;
+    margin-left: 4%;
 }
 .first-column{
   display: flex;
@@ -88,11 +89,11 @@
 }
 .image-1 {
     
-  width: 170px;
-  height: 350px;
+  width: 250px;
+  height: 450px;
 }
 .h4-1 {
-  font-size: 11px;
+  font-size: 13px;
   font-family: "poppings";
 }
 .h3-1 {
@@ -110,4 +111,234 @@
   font-size: 11px;
   width: 60px;
 }
+}
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+  .header {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 0.5fr;
+    width: 100%;
+    overflow: hidden;
+    margin-left: 4%;
+  }
+  .logo-container{
+    margin-top: 3px;
+    width: 140px;
+    height: 60px;   
+   }
+   .logo{
+    font-size: 24px;
+  }
+
+  .signup-login{
+    display:inline-flex;  
+    width: 100px;
+    height: 25px;
+    margin-top: 30px;
+    
+  }
+  .nav-list{
+    display: flex;
+    list-style-type:none ;
+    width: 200px;
+    height: auto;
+    margin-top: 35px;
+    padding-left: 18px;
+  }
+  .list{
+   display: flex;
+   flex-direction: column;
+   padding-right: 17px;
+   font-size: 12px;
+  }
+  .NavLink{
+    text-decoration:none;
+    color: black;
+  }
+ 
+  
+  .signup-btn {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-right: 3%;
+    background-color: #c77e10;
+    border: none;
+    border-radius: 25px;
+    font-size:11px;
+    width: 65px;
+    padding: 4px;
+  }
+  .login-btn {
+    padding: 4px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    align-self: center;
+    border-radius: 25px;
+    font-size:11px;
+    width: 65px;
+  }
+  
+  .row-container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    margin-top: 100px;
+    margin-left: 4%;
+}
+.first-column{
+  display: flex;
+  flex-direction: column;
+    width: 320px;
+    margin-left:8px ;
+   height: 300px;
+}
+.second-column{
+  display: flex;
+  width: 90%;
+  height: fit-content;
+  
+  justify-content: center;
+  align-items: center;
+}
+.image-1 {
+    
+  width: 250px;
+  height: 430px;
+}
+.h4-1 {
+  font-size: 13px;
+  font-family: "poppings";
+}
+.h3-1 {
+  margin-top: 150px;
+  color: blue;
+  font-size: 15px;
+  font-family: 'Copperplate Gothic Bold', sans-serif;
+}
+.buy-btn {
+  padding: 7px;
+  background-color: #e0761e;
+  color: #fff;
+  border-radius: 20px;
+  border: none;
+  font-size: 11px;
+  width: 60px;
+}
+}
+@media only screen and (min-width: 768px) {
+ 
+    .header {
+      display: grid;
+      grid-template-columns: 0.5fr 1fr 0.5fr;
+      width: 100%;
+      overflow: hidden;
+      margin-left: 4%;
+    }
+    .logo-container{
+      margin-top: 3px;
+      width: 230px;
+      height: 60px;   
+     }
+     .logo{
+      font-size: 36px;
+    }
+  
+    .signup-login{
+      display:inline-flex;  
+      width: 200px;
+      height: 25px;
+      margin-top: 45px;
+      
+    }
+    .nav-list{
+      display: flex;
+      list-style-type:none ;
+      width: 300px;
+      height: auto;
+      margin-top: 45px;
+      padding-left: 18px;
+    }
+    .list{
+     display: flex;
+     flex-direction: column;
+     padding-right: 17px;
+     font-size: 20px;
+    }
+    .NavLink{
+      text-decoration:none;
+      color: black;
+    }
+   
+    
+    .signup-btn {
+      display: flex;
+      justify-content: center;
+      align-self: center;
+      margin-right: 3%;
+      background-color: #c77e10;
+      border: none;
+      border-radius: 25px;
+      font-size:20px;
+      width: 85px;
+      padding: 4px;
+    }
+    .login-btn {
+      padding: 4px;
+      border: none;
+      background-color: rgb(255, 255, 255);
+      align-self: center;
+      border-radius: 25px;
+      font-size:20px;
+      width: 85px;
+    }
+    
+    .row-container{
+      display: flex;
+      width: 100%;
+      height: 100vh;
+      margin-top: 100px;
+      margin-left: 4%;
+  }
+  .first-column{
+    display: flex;
+    flex-direction: column;
+      width: 320px;
+      margin-left:8px ;
+     height: 300px;
+  }
+  .second-column{
+    display: flex;
+    width: 90%;
+    height: fit-content;
+    
+    justify-content: center;
+    align-items: center;
+  }
+  .image-1 {
+      
+    width: 400px;
+    height: 600px;
+  }
+  .h4-1 {
+    font-size: 20px;
+    font-family: "poppings";
+  }
+  .h3-1 {
+    margin-top: 150px;
+    color: blue;
+    font-size: 25px;
+    
+    width: 350px;
+    font-family: 'Copperplate Gothic Bold', sans-serif;
+  }
+  .buy-btn {
+    padding: 7px;
+    background-color: #e0761e;
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+    width: 100px;
+  }
+  
 }
