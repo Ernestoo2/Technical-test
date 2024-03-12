@@ -1,0 +1,113 @@
+@media only screen and (max-width: 480px) {
+  .header {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 0.5fr;
+    width: 100%;
+    
+    overflow: hidden;
+  }
+  .logo-container{
+    margin-top: 3px;
+    width: 70px;
+    height: 30px;
+   
+  }
+  .logo{
+    font-size: 12px;
+  }
+
+  .signup-login{
+    display:inline-flex;  
+    width: 100px;
+    height: 25px;
+    margin-top: 10px;
+    
+  }
+  .nav-list{
+    display: flex;
+    
+    list-style-type:none ;
+    width: 150px;
+    height: auto;
+    margin-top: 15px;
+    padding-left: 0%;
+  }
+  .list{
+   display: flex;
+   flex-direction: column;
+   padding-right: 17px;
+   font-size: 10px;
+  }
+  .NavLink{
+    text-decoration:none;
+    color: black;
+  }
+ 
+  
+  .signup-btn {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-right: 3%;
+    background-color: #c77e10;
+    border: none;
+    border-radius: 25px;
+    font-size:10px;
+    width: 65px;
+    padding: 4px;
+  }
+  .login-btn {
+    padding: 4px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    align-self: center;
+    border-radius: 25px;
+    font-size:10px;
+    width: 65px;
+  }
+  .row-container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    margin-top: 100px;
+}
+.first-column{
+  display: flex;
+  flex-direction: column;
+    width: 320px;
+    margin-left:8px ;
+   height: 300px;
+}
+.second-column{
+  display: flex;
+  width: 90%;
+  height: fit-content;
+  
+  justify-content: center;
+  align-items: center;
+}
+.image-1 {
+    
+  width: 170px;
+  height: 350px;
+}
+.h4-1 {
+  font-size: 11px;
+  font-family: "poppings";
+}
+.h3-1 {
+  margin-top: 150px;
+  color: blue;
+  font-size: 12px;
+  font-family: 'Copperplate Gothic Bold', sans-serif;
+}
+.buy-btn {
+  padding: 7px;
+  background-color: #e0761e;
+  color: #fff;
+  border-radius: 20px;
+  border: none;
+  font-size: 11px;
+  width: 60px;
+}
+}

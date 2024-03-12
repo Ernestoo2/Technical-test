@@ -1,0 +1,183 @@
+.header{
+    display: grid;
+    grid-template-columns:  1fr auto 1fr;
+    width: 100%;
+    background-color: #674ddd;
+    overflow: hidden;
+}
+.logo-container{
+  width: 20%;
+  height: 15%;
+  float: left;
+
+  background-color: rgb(241, 209, 22);
+}
+.signup-login{
+  width: 55%;
+  background-color: rgb(184, 233, 139);
+  
+  
+}
+.nav-bar{
+  
+  background-color: antiquewhite;
+  
+  width: 70%;
+} 
+
+.logo{
+  color: #c77e10;
+  
+}
+/* this for the bar container that cordinates the list and direction */
+
+/* this is responsible for the the nav-list to pad together
+also cordinates the list style
+*/
+.nav-list{
+  display: flex;
+  
+  list-style-type:none ;
+  margin: 0;
+  padding: 0;
+}
+/* this controls the margin and the individual list items */
+.list{
+  margin-left: 0;
+}
+/* responsible for text decoration and padding  */
+.NavLink{
+  text-decoration:none;
+  padding-right: 15px;
+  color: black;
+}
+/* responsible for when its clicked to focus */
+.NavLink.active {
+  font-weight: bold; /* Highlight the active link */
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-toggle {
+  cursor: pointer;
+  padding: 5px 6px;
+  border: none;
+  border-radius: 4px;
+  background-color: rgb(54, 218, 32);
+}
+
+.Dropdown-menu {
+  display: flex;
+  flex-direction: column;
+  position:absolute;
+  list-style-type: none;
+  min-width: 160x;
+  background-color: rgb(211, 211, 147);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1
+}
+
+
+
+.login-btn {
+  padding: 10px;
+  border: none;
+  background-color: rgb(255, 255, 255);
+  align-self: center;
+  border-radius: 25px;
+  font-size:medium;
+ 
+}
+.signup-btn {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin-right: 5%;
+  background-color: #c77e10;
+  border: none;
+  border-radius: 25px;
+  font-size:larger;
+}
+
+/* this for buy button */
+
+/* this for the  */
+.row-container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color:#9fabe0 ;
+    justify-content:center;
+    align-items: center;
+}
+.first-column{
+  display: flex;
+  flex-direction: column;
+    width: 100%;
+    margin: 5%;
+   height: 50vh;
+}
+.home{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20%;
+  background-color: #f76126;
+}
+.buy-btn {
+  padding: 15px;
+  background-color: #e0761e;
+  color: #fff;
+  border-radius: 20px;
+  border: none;
+  font-size: 16px;
+  width: 100px;
+}
+.second-column{
+  display: flex;
+  width: 100%;
+  margin: 3%;
+  justify-content: center;
+  align-items: center;
+}
+.image-1 {
+    
+  width: 90%;
+  height: 100%;
+}
+.footer{
+  display: flex;
+  width: 100%;
+  
+  justify-content: center;
+  align-items: center;
+}
+.h4-1 {
+  font-size: 20px;
+  font-family: "poppings";
+  font-weight: 100;
+  letter-spacing: 4.8px;
+}
+.h3-1 {
+  margin-top: 30%;
+  color: blue;
+  font-family: 'Copperplate Gothic Bold', sans-serif;
+}
+
+
+
+
+how to push
+…or create a new repository on the command line
+echo "# Technical-testD" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Ernestoo2/Technical-testD.git
+git push -u origin main
+…or push an existing repository from the command line
+git remote add origin https://github.com/Ernestoo2/Technical-testD.git
+git branch -M main
+git push -u origin main
